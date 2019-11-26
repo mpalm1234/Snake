@@ -11,7 +11,7 @@ public class RenderPanel extends JPanel {
 
 	@Override
 	protected void paintComponent(Graphics g) {
-		super.paintComponent(g);       // do this first
+		super.paintComponent(g);
 		Snake snake = Snake.snake;
 		String string;
 
